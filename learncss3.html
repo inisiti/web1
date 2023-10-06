@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
         <title>Learn CSS part 3</title>
         <style>
             a {
@@ -12,11 +13,43 @@
                 padding: 10px;
                 border-radius: 10px;
             }
+            a:link{
+                background-color: darkgoldenrod;
+            }
+            a:visited{
+                background-color: darkorchid;
+            }
+            a:hover{
+                background-color: lightcoral;
+            }
+            a:active {
+                background-color: lightskyblue;
+            }
+            a.yellow{
+                background-color: yellow;
+                color: black;
+                border-color: black;
+            }
+            a.darkorchid{
+                background-color: darkorchid;
+                color: white;
+            }
+            a.darkgoldenrod{
+                background-color: darkgoldenrod;
+                color: white;
+            }
+            a.green{
+                background-color: green;
+                color: white;
+            }
+
         </style>
     </head>
     <body>
         <h1>Learn CSS links</h1>
-        <a href="https://unai.edu">UNAI website</a>
-        <a href="https://fti.unai.edu">FTI UNAI website</a>
+        <a class="darkgoldenrod" href="https://unai.edu">UNAI website</a>
+        <a class="darkorchid" href="https://fti.unai.edu">FTI UNAI website</a>
+        <a  class="yellow" href="https://moodle.unai.edu">Moodle UNAI website</a>
+        <a class="green" href="https://google.com">Google</a>
     </body>
 </html>
