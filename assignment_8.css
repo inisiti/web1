@@ -1,0 +1,55 @@
+body{
+    background-image: url(love-bg.jpg);
+    
+}
+
+.special {
+    font-family: Sofia;
+    color:white;
+    font-size: 45px;
+    
+}
+
+.one {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    margin-left: 75px;
+    background-color: red;
+    padding: 20px;
+    white-space: break spaces;                                                                                                                                                                   
+    color: white;
+}
+
+.two {
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 75px;
+    padding-right: 75px;
+    text-align: right;
+    letter-spacing: 3px;
+    border:dashed red 7px;
+    color: red;
+    background-color: white;
+}
+
+.three {
+    padding-top: 50px;
+    text-align: center;
+    text-shadow: 5px 5px 10px white;
+    width: 626px;
+    height: 300px;
+    border-radius: 20px;
+    margin:auto
+} 
+
+.love {
+    font-family: Rochester;
+    font-size: 75px;
+    color: red;
+    background-image: url(bg-love.jpg);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 42px;
+    padding: 50px 100px 200px 200px;
+}
