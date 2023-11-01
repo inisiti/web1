@@ -20,5 +20,19 @@ footer {
 
 main {
     display: flex;
-    
+    gap: 20px;
+
+}
+
+main img {
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    main {
+        flex-direction: column;
+    }
+    header h1 {
+        color: red;
+    }
 }
