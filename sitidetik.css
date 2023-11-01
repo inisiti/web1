@@ -1,0 +1,90 @@
+img {
+    width: 20%;
+}
+
+.navigasi1 {
+    background: linear-gradient(100deg,#562b77 30%,#aa248c 100%);
+    color: white;
+    padding: 3px;
+}
+
+.navigasi1 ul {
+    list-style-type: none;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+.navigasi1 ul li:hover {
+    color: yellow;
+    font-weight: bolder;
+}
+
+.navigasi2 {
+    background-color: grey;
+    color: black;
+    padding: 1px;
+}
+
+.navigasi2 ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+}
+
+.navigasi2 ul li:hover {
+    color: #aa248c;
+}
+
+.oppo {
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+    font-size: medium;
+}
+
+#bocoran {
+    color: purple;
+    font-size: 20px;
+}
+#hp-xiaomi {
+    width: 37%;
+}
+
+.link-detik {
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 10px;
+    font: bolder;
+    text-transform: lowercase;
+    background-color: gray
+
+}
+
+.footerku  {
+    padding: 1px;
+}
+
+.footerku{
+    background-color: rebeccapurple;
+}
+.footerku ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
