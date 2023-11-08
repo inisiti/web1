@@ -23,12 +23,52 @@
 
         function myFriendAndMe() {
             myFriend();
-            document.write("<br>s")
+            document.write("<br>")
             mySiti();
         }
 
         myFriendAndMe();
 
+        let x = 1;
+        let y = 2;
+
+        function add(a,b) {
+            return a + b;
+        }
+
+        document.write (add(2 , 3));
+
+        console.log(add(1 , 3));
+
+        console.log(add(x, y));
+
+        function multiply(x, y) {
+            return x * y;
+        }
+
+        console.log(multiply(4, 5));
+
+        function sum(e, f , g, h) {
+            return (e,f,g,h);
+        }
+
+        console.log(sum(5, 8, 9, 9));
+
+
+    </script>
+
+    <br><br>
+    <h3>type your name</h3>
+    Name: <input type="text" id="name">
+    <button onclick="showName()">Send</button>
+
+    <p id="np"></p>
+
+    <script>
+        function showName() {
+            let name = document.getElementById("name").value;
+            document.getElementById("np").innerHTML = "your name is" + name;
+        }
     </script>
 </body>
 </html>
