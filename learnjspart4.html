@@ -12,6 +12,12 @@
 
     <button onmouseover="functionHover()">Hover over me...</button>
 
+    <button onmouseout="functionOnmouseout()">onmouseout</button>
+
+    <button onkeydown="functionOnkeydown()">onkeydown</button>
+
+    <button onload="functionOnload">onload</button>
+
     <script>
         function functionclick() {
             alert("Hi! you clicked the button");
@@ -19,6 +25,18 @@
 
         function functionHover()  {
             console.log("Hi! you hover over the button");
+        }
+
+        function functionOnmouseout() {
+            console.log("Hi! you onmouseout the button");
+        }
+
+        function functionOnkeydown() {
+            console.log("Hi! you onkeydown the button ");
+        }
+
+        function functionOnload() {
+            console.log("Hi! you onload the button");
         }
     </script>
 </body>
