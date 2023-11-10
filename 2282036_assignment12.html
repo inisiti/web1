@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment 12</title>
+</head>
+<body>
+    <h2>A Very Simpe JS Calculator</h2>
+    <label for="">Input</label>
+    <input type="number"id="box1">
+    <label for=""></label>
+
+    <select name="" id="tambahkurangkalibagi">
+    <option value="ditambah">+</option>
+    <option value="dikurang">-</option>
+    <option value="dikali">*</option>
+    <option value="dibagi">/</option><br>
+    </select>
+
+    <input type="number"id="box2"><br>
+    <label for="">Result :</label>
+    <input type="text" id="result">
+
+    <button onclick="ditambah()">Tambah(+)</button>
+    <button onclick="dikurang()">Kurang(-)</button>
+    <button onclick="dikali()">Kali(*)</button>
+    <button onclick="dibagi()">Bagi(/)</button>
+
+
+    <script>
+        let box1 = document.getElementById("box1");
+        let box2 = document.getElementById("box2");
+        let hasil = document.getElementById("result");
+
+        function ditambah() {
+            hasil.value = Number(box1.value) +Number (box2.value);
+        }
+
+        function dikurang() {
+            hasil.value = Number(box1.value) -Number (box2.value);
+        }
+
+        function dikali() {
+            hasil.value = Number(box1.value) *Number (box2.value);
+        }
+
+        function dibagi() {
+            hasil.value = Number(box1.value) /Number (box2.value);
+        }
+
+
+        
+
+
+    </script>
+
+
+</body>
+</html>
