@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn JS part 4</title>
 </head>
-<body>
+<body onload="functionOnload()">
     <h1>Learn JS part 4</h1>
 
     <button onclick="functionclick()">click me!</button>
@@ -13,10 +13,17 @@
     <button onmouseover="functionHover()">Hover over me...</button>
 
     <button onmouseout="functionOnmouseout()">onmouseout</button>
+   
 
     <button onkeydown="functionOnkeydown()">onkeydown</button>
 
+   
     <button onload="functionOnload">onload</button>
+    <br><br>
+    Name: <input type="text" id="name" onkeydown="functionkeydown()">
+
+
+   
 
     <script>
         function functionclick() {
@@ -36,8 +43,15 @@
         }
 
         function functionOnload() {
-            console.log("Hi! you onload the button");
+            alert("Hi! you onload the button");
         }
+
+        function functionkeydown() {
+            console.log("you pressed a key");
+            document.getElementById("name").style.borderColor = "red";
+        }
+
+
     </script>
 </body>
 </html>
